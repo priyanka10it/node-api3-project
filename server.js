@@ -13,7 +13,7 @@ server.use('/api/users',userRouter);
 
 server.get('/', (req, res) => {
   res.send(`<h2>Let's write some middleware!</h2>`);
-  res.send("Heroku deployment successfully done")
+  res.send(`<p>Heroku deployment successfully done</p>`)
 });
 
 //custom middleware
